@@ -1,0 +1,83 @@
+$blue-dark:#334454;
+$blue-light:#3497DB;
+$purple:#413759;
+$green:#396340;
+$light:#EEEEEE;
+
+
+body
+{
+	background:$light;
+}
+.navbar
+{
+	background:$blue-dark;
+	line-height:60px;
+	margin-bottom:0;
+	.navbar-toggle
+	{
+		.icon-bar
+		{
+			background:$light;
+		}
+	}
+	.navbar-header
+	{
+		.brand
+		{
+			img
+			{
+				height:40px;
+			}
+		}
+	}
+	#navbar
+	{
+		line-height:60px;
+		.nav
+		{
+			line-height:60px;
+			> li
+			{
+				line-height:60px;
+				a
+				{
+					line-height:60px;
+					color:#FFF;
+					text-transform:uppercase;
+					font-weight:bold;
+					transition:.5s;
+					padding-top:0;
+					padding-bottom:0;
+					&:hover
+					{
+						background:none;
+						color:#CCC;
+					}
+				}
+			}
+		}
+	}
+}
+#splash
+{
+	background:#FFF;
+	min-height:250px;
+}
+#about
+{
+	background:$blue-light;
+	min-height:300px;
+}
+#next
+{
+	background:#E7EBEC url('media/imgs/bg-repeat.png') repeat;
+	min-height:300px;
+}
+#footer
+{
+	background:$blue-dark;
+	min-height:300px;
+}
+
+

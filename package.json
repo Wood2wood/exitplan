@@ -1,0 +1,20 @@
+{
+  "name": "exitplan",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r \t<meta name=\"viewport\" content=\"width=device-width\" />\r \t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r \t<title>WordPress &#8250; ReadMe</title>\r \t<link rel=\"stylesheet\" href=\"wp-admin/css/install.css?ver=20100228\" type=\"text/css\" />\r </head>\r <body>\r <h1 id=\"logo\">\r \t<a href=\"http://wordpress.org/\"><img alt=\"WordPress\" src=\"wp-admin/images/wordpress-logo.png\" width=\"250\" height=\"68\" /></a>\r \t<br /> Version 4.6\r </h1>\r <p style=\"text-align: center\">Semantisk personlig udgivelsesplatform</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
